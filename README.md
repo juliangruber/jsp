@@ -3,6 +3,8 @@
 
 A nicer JSON.parse() with convenient error handling.
 
+[![Build Status](https://travis-ci.org/juliangruber/jsp.png?branch=master)](https://travis-ci.org/juliangruber/jsp)
+
 ## Usage
 
 Lets you do this:
