@@ -1,5 +1,5 @@
 
-# JSONParse
+# jsp
 
 A nicer JSON.parse() with convenient error handling.
 
@@ -8,6 +8,8 @@ A nicer JSON.parse() with convenient error handling.
 Lets you do this:
 
 ```js
+var parse = require('jsp');
+
 var parsed = parse(raw);
 cb(parsed.err, parsed.json);
 ```
@@ -35,13 +37,13 @@ cb(null, parsed);
 With [npm](http://npmjs.org) do
 
 ```bash
-$ npm install JSONParse
+$ npm install jsp
 ```
 
 With [component](https://github.com/component/component) do
 
 ```bash
-$ component install juliangruber/JSONParse
+$ component install juliangruber/jsp
 ```
 
 ## License

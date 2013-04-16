@@ -1,12 +1,12 @@
 {
-  "name": "JSONParse",
+  "name": "jsp",
   "description": "A nicer JSON.parse() with convenient error handling.",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/juliangruber/JSONParse.git"
+    "url": "git://github.com/juliangruber/jsp.git"
   },
-  "homepage": "https://github.com/juliangruber/JSONParse",
+  "homepage": "https://github.com/juliangruber/jsp",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js"
